@@ -1,0 +1,236 @@
+html,
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 20px;
+
+}
+
+.header {
+    height: 75px;
+    border-bottom: 2px solid lightgrey;
+    box-shadow: 0 5px 15px lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medium-logo {
+    width: 161px;
+    height: auto;
+}
+
+.menuelements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+}
+
+.search,
+.save,
+.notify {
+    border: none;
+    background-color: white;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.member {
+    color: lightgray;
+    border: solid 2px;
+    border-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.accountimg {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.upbar {
+    position: absolute;
+    left: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.leftsection {
+    margin-top: 100px;
+    width: 60%;
+    border-right: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.articlelist {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.articlebox {
+    height: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.articletitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.artimg {
+    width: 230px;
+    object-fit: cover;
+    align-self: flex-end;
+}
+
+.rightsection {
+    margin-top: 60px;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.linklist {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: space-around;
+}
+
+.linkbox {
+    border-bottom: 2px solid lightgrey;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.twitter {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.fa-brands {
+    margin: 10px;
+}
+
+a {
+    color: rgb(130, 130, 130);
+}
+
+.taglinks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.taglink {
+    text-decoration: none;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-weight: lighter;
+    padding: 5px;
+    margin: 10px;
+}
+
+.guestprofile {
+    height: 300px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+
+}
+
+.profile1,
+.profile2,
+.profile3 {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-evenly;
+   
+}
+
+.face1,
+.face2,
+.face3 {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.follow {
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.name, .bio {
+   margin: 20px;
+}
+
+.saved {
+    margin-top: 100px;
+}
+
+.bottommenu {
+    margin-top: 50px;
+    align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuvoice {
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 5px;
+    margin: 10px;
+}
